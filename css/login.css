@@ -1,0 +1,114 @@
+*{
+    font-family: corbel;
+}
+
+.input {
+    color: white;
+    width: 100%;
+    padding: 15px 15px 15px 40px;
+    display: block;
+    border-radius: 5px 5px 2px 2px;
+    border:0px;
+    border: 2px solid #262626;
+    box-sizing: border-box;
+}
+
+#usuario{
+    background:transparent;
+    color: white;
+    background-image: url('../imagenes/icon-user.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 4%;
+    outline: none;
+    border-bottom: 0px;
+
+}
+
+#usuario:focus{
+    border-left: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    border-right: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+
+#password{
+    background:transparent;
+    background-image: url('../imagenes/llave.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 4%;
+    outline: none;
+    border-radius: 0px 0px 5px 5px;
+
+}
+
+#password:focus{
+     border-left: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-right: 2px solid #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+#submit {
+    width: 100%;
+    background-color: #262626;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: 1s;
+}
+
+#submit:hover {
+    background-color: #f2f2f2;
+    color: #262626;
+    transition: 1s;
+}
+
+#registro:hover {
+    background-color: #f2f2f2;
+    color: #262626;
+}
+
+
+#fondo {
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 100px;
+}
+
+#login{
+
+    border-radius: 5px;
+    padding: 30px;
+    padding-top: 0px;
+    width: 30%;
+    margin: auto;
+}
+#registro {
+    width: 100%;
+    background-color: #262626;
+    color: #f2f2f2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body{
+    background-image: url('../imagenes/fondo1.jpg');
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}

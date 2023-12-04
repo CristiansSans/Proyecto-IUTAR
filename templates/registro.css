@@ -1,0 +1,78 @@
+*{
+    font-family: consolas;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px 10px 40px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#reg{
+	
+	padding: 10px 10px 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+#submit {
+    width: 100%;
+    background-color: #ff8533;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #ff6600;
+}
+
+#registro:hover {
+    background-color: #ff6600;
+}
+
+
+#fondo {
+    border-radius: 5px;
+    background-color: #737373;
+    padding: 20px;
+}
+
+#login{
+
+    border-radius: 5px;
+    background-color: #333333;
+    padding: 30px;
+    width: 30%;
+    margin: auto;
+}
+#registro {
+    width: 100%;
+    background-color: #ff8533;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body{
+    background-color: #737373;
+}
+
+#semestre{
+    font-size: 20px;
+}

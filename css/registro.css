@@ -1,0 +1,24 @@
+.registrar {
+width: 60%;
+text-align: center;ç	
+display:block;
+ background: #820000;
+ color: #f2f2f2;
+ padding: 10px 40px;
+ margin: 15px auto;
+ cursor: pointer;
+ font-size:20px; 
+
+}
+.registrar:active {
+transform; 
+}
+.form_registro {
+width: 98%;
+max-width: 500px;
+margin: -40px auto; /* cambio */
+background: white;
+border-radius: 7px;
+padding: 20px;
+margin-top: 40px;
+}

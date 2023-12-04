@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: tahoma;
+}
+
+body{
+	background-color: #f2f2f2;
+}
+
+#header{
+	width: 100%;
+	background-color: #780000;
+	height: 100px;
+	display: inline-block;
+}
+
+#logo{
+	width: 12%;
+	padding: 25px;
+}
+
+.active{
+    background-color: #f2f2f2;
+    color: black;
+     display: block;
+    height: 75px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#ul2 {
+    width: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    height: 100px;
+}
+
+.li2 {
+    float: left;
+    height: 75px;
+
+}
+
+.li3 {
+    display: block;
+    height: 75px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li3:hover {
+    background-color: #f2f2f2;
+    color: black;
+    height: 75px;
+    padding: 14px 16px;
+}
+
+#usuario{
+
+    width: 10%;
+    padding: 10px;
+    height: auto;
+    display: inline-block;
+    margin-top: 25px;
+    color: white;
+    float: right;
+    transition: 1s;
+}
+
+#menuico{
+
+    width: 10%;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#menuser{
+    width: 10%;
+    background-color: black;
+    display: none;
+    float: right;
+    color: white;
+}
+
+#menusuario{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: #780000;
+}
+
+.li4{
+     display: block;
+    color: black;
+    padding: 3px 6px;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.li4:hover{
+    background-color: #262626;
+    color: white;
+}
+
+
+#fondo{
+	padding: 20px;
+	margin-left: 7px;
+	width: 70%;
+	height: 160;
+	border: 2px solid white;
+	display: inline-block;	
+	background-color: white;
+}
+
+
+
+#back{
+
+	width: 99%;
+	height: auto;
+	position: fixed;
+	left: 300px;
+	padding-top: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover{background-color:#f5f5f5}
+
+	.input {
+    width: 19%;
+    padding: 12px 20px 10px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.perfil{
+	width: 5%;
+}
